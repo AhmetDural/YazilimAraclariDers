@@ -9,7 +9,7 @@ import org.junit.Test;
         
         String cumle = "Medipol Universitesi";
         
-        int sonuc = harfSaydýrma.harfleriSaydir(cumle);
+        int sonuc = harfSaydirma.harfleriSaydir(cumle);
         
         assertEquals(19, sonuc);
     }
