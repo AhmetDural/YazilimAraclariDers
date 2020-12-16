@@ -1,0 +1,5 @@
+language: java
+script:
+  -  "mvv -f Ders2/pom.xml clean install cobertura:cobertura"
+  jdk:
+    - oraclejdk8
