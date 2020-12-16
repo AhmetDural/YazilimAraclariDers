@@ -2,4 +2,4 @@ language: java
 script:
   -  "mvn -f Ders2/pom.xml clean install cobertura:cobertura"
 jdk:
-  - oraclejdk8
+  - openjdk8
