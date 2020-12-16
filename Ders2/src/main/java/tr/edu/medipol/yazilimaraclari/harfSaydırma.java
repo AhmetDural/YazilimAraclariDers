@@ -4,18 +4,18 @@ public class harfSaydýrma {
 
 	public static void main(String[] args) {
 
-		   String cumle = "Medipol Universitesi";
-	        int harfSayisi = harfleriSaydir(cumle);
-	        System.out.printf("%s cumledeki harf sayisi: %d", cumle, harfSayisi);
+		   String Cumle = "Medipol Universitesi";
+	        int harfSayisi = harfleriSaydir(Cumle);
+	        System.out.printf("%s cumledeki harf sayisi: %d", Cumle, harfSayisi);
 	    }
 
 	 
 
-	    static int harfleriSaydir(String cumle) {
+	    static int harfleriSaydir(String Cumle) {
 	        
 	        int harfSayisi = 0;
-	        for (int i = 0; i < cumle.length(); i++) {
-	            char karakter = cumle.charAt(i);
+	        for (int i = 0; i < Cumle.length(); i++) {
+	            char karakter = Cumle.charAt(i);
 	            if ( Character.isAlphabetic(karakter) ) {
 	                harfSayisi++;
 	            }
