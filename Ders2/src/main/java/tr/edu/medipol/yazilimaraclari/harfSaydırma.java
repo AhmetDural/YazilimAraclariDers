@@ -1,6 +1,6 @@
 package tr.edu.medipol.yazilimaraclari;
 
-public class harfSaydirma {
+public class harfSaydýrma {
 
 	public static void main(String[] args) {
 
